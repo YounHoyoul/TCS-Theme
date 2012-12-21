@@ -1,0 +1,509 @@
+/*
+* Use this CSS to use black and white color scheme (icons, etc)
+*
+*/
+
+
+/* Table of Content
+==================================================
+	#Service Icons
+	#Social Icons
+	#Staff Social Icons
+	#Footer Icons
+	#Twitter
+	#toTop Scrolling
+	#Portfolio
+	*/
+
+
+/* #Service Icons
+================================================== */
+
+div.service {
+	text-align:center
+}
+
+/* Regular Devices ----------- */
+h2.serv a { 
+	display:inline-block; 
+	padding-top:0; 
+	min-width:122px; 
+	width:100%;
+	cursor:pointer
+}
+
+h2.serv a span { 
+	display:block; 
+	width:100%; 
+	height:122px; 
+	cursor:pointer 
+}
+
+h2.serv a.mix span, h2.serv a.mix:visited span {  background:url(../images/service-icons/mix-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.mix:hover span {  background:url(../images/service-icons/mix-bw-sm.png) center top no-repeat;  }
+h2.serv a.users span, h2.serv a.users:visited span {   background:url(../images/service-icons/users-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.users:hover span { background:url(../images/service-icons/users-bw-sm.png) center top no-repeat;  }
+h2.serv a.flag span, h2.serv a.flag:visited span { background:url(../images/service-icons/flag-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.flag:hover span { background:url(../images/service-icons/flag-bw-sm.png) center top no-repeat;  }
+h2.serv a.trophy span, h2.serv a.trophy:visited span { background:url(../images/service-icons/trophy-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.trophy:hover span { background:url(../images/service-icons/trophy-bw-sm.png) center top no-repeat;  }
+h2.serv a.camera span, h2.serv a.camera:visited span { background:url(../images/service-icons/camera-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.camera:hover span { background:url(../images/service-icons/camera-bw-sm.png) center top no-repeat;  }
+h2.serv a.palette span, h2.serv a.palette:visited span { background:url(../images/service-icons/palette-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.palette:hover span { background:url(../images/service-icons/palette-bw-sm.png) center top no-repeat; } 
+h2.serv a.circles span, h2.serv a.circles:visited span { background:url(../images/service-icons/circles-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.circles:hover span { background:url(../images/service-icons/circles-bw-sm.png) center top no-repeat;  }
+h2.serv a.music span, h2.serv a.music:visited span { background:url(../images/service-icons/music-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.music:hover span { background:url(../images/service-icons/music-bw-sm.png) center top no-repeat;  }
+h2.serv a.bag span, h2.serv a.bag:visited span { background:url(../images/service-icons/bag-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.bag:hover span { background:url(../images/service-icons/bag-bw-sm.png) center top no-repeat;  }
+h2.serv a.mic span, h2.serv a.mic:visited span { background:url(../images/service-icons/mic-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.mic:hover span { background:url(../images/service-icons/mic-bw-sm.png) center top no-repeat;  }
+h2.serv a.time span, h2.serv a.time:visited span { background:url(../images/service-icons/time-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.time:hover span { background:url(../images/service-icons/time-bw-sm.png) center top no-repeat;  }
+h2.serv a.security span, h2.serv a.security:visited span { background:url(../images/service-icons/security-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.security:hover span { background:url(../images/service-icons/security-bw-sm.png) center top no-repeat;  }
+h2.serv a.warning span, h2.serv a.warning:visited span { background:url(../images/service-icons/warning-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.warning:hover span { background:url(../images/service-icons/warning-bw-sm.png) center top no-repeat;  }
+h2.serv a.search span, h2.serv a.search:visited span { background:url(../images/service-icons/search-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.search:hover span { background:url(../images/service-icons/search-bw-sm.png) center top no-repeat;  }
+h2.serv a.clip span, h2.serv a.clip:visited span { background:url(../images/service-icons/clip-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.clip:hover span { background:url(../images/service-icons/clip-bw-sm.png) center top no-repeat;  }
+h2.serv a.phone span, h2.serv a.phone:visited span { background:url(../images/service-icons/phone-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.phone:hover span { background:url(../images/service-icons/phone-bw-sm.png) center top no-repeat;  }
+h2.serv a.map span, h2.serv a.map:visited span { background:url(../images/service-icons/map-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.map:hover span { background:url(../images/service-icons/map-bw-sm.png) center top no-repeat;  }
+h2.serv a.share span, h2.serv a.share:visited span { background:url(../images/service-icons/share-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.share:hover span { background:url(../images/service-icons/share-bw-sm.png) center top no-repeat;  }
+h2.serv a.heart span, h2.serv a.heart:visited span { background:url(../images/service-icons/heart-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.heart:hover span { background:url(../images/service-icons/heart-bw-sm.png) center top no-repeat;  }
+h2.serv a.printer span, h2.serv a.printer:visited span { background:url(../images/service-icons/printer-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.printer:hover span { background:url(../images/service-icons/printer-bw-sm.png) center top no-repeat;  }
+h2.serv a.gear span, h2.serv a.gear:visited span { background:url(../images/service-icons/gear-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.gear:hover span { background:url(../images/service-icons/gear-bw-sm.png) center top no-repeat;  }
+h2.serv a.files span, h2.serv a.files:visited span { background:url(../images/service-icons/files-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.files:hover span { background:url(../images/service-icons/files-bw-sm.png) center top no-repeat;  }
+h2.serv a.video span, h2.serv a.video:visited span { background:url(../images/service-icons/video-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.video:hover span { background:url(../images/service-icons/video-bw-sm.png) center top no-repeat;  }
+h2.serv a.pics span, h2.serv a.pics:visited span { background:url(../images/service-icons/pics-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.pics:hover span { background:url(../images/service-icons/pics-bw-sm.png) center top no-repeat;  }
+h2.serv a.cloud span, h2.serv a.cloud:visited span { background:url(../images/service-icons/cloud-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.cloud:hover span { background:url(../images/service-icons/cloud-bw-sm.png) center top no-repeat;  }
+h2.serv a.sound span, h2.serv a.sound:visited span { background:url(../images/service-icons/sound-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.sound:hover span { background:url(../images/service-icons/sound-bw-sm.png) center top no-repeat;  }
+h2.serv a.write span, h2.serv a.write:visited span { background:url(../images/service-icons/write-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.write:hover span { background:url(../images/service-icons/write-bw-sm.png) center top no-repeat;  }
+h2.serv a.chat span, h2.serv a.chat:visited span { background:url(../images/service-icons/chat-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.chat:hover span { background:url(../images/service-icons/chat-bw-sm.png) center top no-repeat;  }
+h2.serv a.bell span, h2.serv a.bell:visited span { background:url(../images/service-icons/bell-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.bell:hover span { background:url(../images/service-icons/bell-bw-sm.png) center top no-repeat;  }
+h2.serv a.eye span, h2.serv a.eye:visited span { background:url(../images/service-icons/eye-bw-sm.png) center bottom no-repeat;  }
+h2.serv a.eye:hover span { background:url(../images/service-icons/eye-bw-sm.png) center top no-repeat;  }
+
+/* HD Retina Devices ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+	
+h2.serv a span { background-size: 122px 244px; }
+
+h2.serv a.mix span, h2.serv a.mix:visited span {  background:url(../images/service-icons/mix-bw.png) center bottom no-repeat;  }
+h2.serv a.mix:hover span {  background:url(../images/service-icons/mix-bw.png) center top no-repeat;  }
+h2.serv a.users span, h2.serv a.users:visited span {   background:url(../images/service-icons/users-bw.png) center bottom no-repeat;  }
+h2.serv a.users:hover span { background:url(../images/service-icons/users-bw.png) center top no-repeat;  }
+h2.serv a.flag span, h2.serv a.flag:visited span { background:url(../images/service-icons/flag-bw.png) center bottom no-repeat;  }
+h2.serv a.flag:hover span { background:url(../images/service-icons/flag-bw.png) center top no-repeat;  }
+h2.serv a.trophy span, h2.serv a.trophy:visited span { background:url(../images/service-icons/trophy-bw.png) center bottom no-repeat;  }
+h2.serv a.trophy:hover span { background:url(../images/service-icons/trophy-bw.png) center top no-repeat;  }
+h2.serv a.camera span, h2.serv a.camera:visited span { background:url(../images/service-icons/camera-bw.png) center bottom no-repeat;  }
+h2.serv a.camera:hover span { background:url(../images/service-icons/camera-bw.png) center top no-repeat;  }
+h2.serv a.palette span, h2.serv a.palette:visited span { background:url(../images/service-icons/palette-bw.png) center bottom no-repeat;  }
+h2.serv a.palette:hover span { background:url(../images/service-icons/palette-bw.png) center top no-repeat; } 
+h2.serv a.circles span, h2.serv a.circles:visited span { background:url(../images/service-icons/circles-bw.png) center bottom no-repeat;  }
+h2.serv a.circles:hover span { background:url(../images/service-icons/circles-bw.png) center top no-repeat;  }
+h2.serv a.music span, h2.serv a.music:visited span { background:url(../images/service-icons/music-bw.png) center bottom no-repeat;  }
+h2.serv a.music:hover span { background:url(../images/service-icons/music-bw.png) center top no-repeat;  }
+h2.serv a.bag span, h2.serv a.bag:visited span { background:url(../images/service-icons/bag-bw.png) center bottom no-repeat;  }
+h2.serv a.bag:hover span { background:url(../images/service-icons/bag-bw.png) center top no-repeat;  }
+h2.serv a.mic span, h2.serv a.mic:visited span { background:url(../images/service-icons/mic-bw.png) center bottom no-repeat;  }
+h2.serv a.mic:hover span { background:url(../images/service-icons/mic-bw.png) center top no-repeat;  }
+h2.serv a.time span, h2.serv a.time:visited span { background:url(../images/service-icons/time-bw.png) center bottom no-repeat;  }
+h2.serv a.time:hover span { background:url(../images/service-icons/time-bw.png) center top no-repeat;  }
+h2.serv a.security span, h2.serv a.security:visited span { background:url(../images/service-icons/security-bw.png) center bottom no-repeat;  }
+h2.serv a.security:hover span { background:url(../images/service-icons/security-bw.png) center top no-repeat;  }
+h2.serv a.warning span, h2.serv a.warning:visited span { background:url(../images/service-icons/warning-bw.png) center bottom no-repeat;  }
+h2.serv a.warning:hover span { background:url(../images/service-icons/warning-bw.png) center top no-repeat;  }
+h2.serv a.search span, h2.serv a.search:visited span { background:url(../images/service-icons/search-bw.png) center bottom no-repeat;  }
+h2.serv a.search:hover span { background:url(../images/service-icons/search-bw.png) center top no-repeat;  }
+h2.serv a.clip span, h2.serv a.clip:visited span { background:url(../images/service-icons/clip-bw.png) center bottom no-repeat;  }
+h2.serv a.clip:hover span { background:url(../images/service-icons/clip-bw.png) center top no-repeat;  }
+h2.serv a.phone span, h2.serv a.phone:visited span { background:url(../images/service-icons/phone-bw.png) center bottom no-repeat;  }
+h2.serv a.phone:hover span { background:url(../images/service-icons/phone-bw.png) center top no-repeat;  }
+h2.serv a.map span, h2.serv a.map:visited span { background:url(../images/service-icons/map-bw.png) center bottom no-repeat;  }
+h2.serv a.map:hover span { background:url(../images/service-icons/map-bw.png) center top no-repeat;  }
+h2.serv a.share span, h2.serv a.share:visited span { background:url(../images/service-icons/share-bw.png) center bottom no-repeat;  }
+h2.serv a.share:hover span { background:url(../images/service-icons/share-bw.png) center top no-repeat;  }
+h2.serv a.heart span, h2.serv a.heart:visited span { background:url(../images/service-icons/heart-bw.png) center bottom no-repeat;  }
+h2.serv a.heart:hover span { background:url(../images/service-icons/heart-bw.png) center top no-repeat;  }
+h2.serv a.printer span, h2.serv a.printer:visited span { background:url(../images/service-icons/printer-bw.png) center bottom no-repeat;  }
+h2.serv a.printer:hover span { background:url(../images/service-icons/printer-bw.png) center top no-repeat;  }
+h2.serv a.gear span, h2.serv a.gear:visited span { background:url(../images/service-icons/gear-bw.png) center bottom no-repeat;  }
+h2.serv a.gear:hover span { background:url(../images/service-icons/gear-bw.png) center top no-repeat;  }
+h2.serv a.files span, h2.serv a.files:visited span { background:url(../images/service-icons/files-bw.png) center bottom no-repeat;  }
+h2.serv a.files:hover span { background:url(../images/service-icons/files-bw.png) center top no-repeat;  }
+h2.serv a.video span, h2.serv a.video:visited span { background:url(../images/service-icons/video-bw.png) center bottom no-repeat;  }
+h2.serv a.video:hover span { background:url(../images/service-icons/video-bw.png) center top no-repeat;  }
+h2.serv a.pics span, h2.serv a.pics:visited span { background:url(../images/service-icons/pics-bw.png) center bottom no-repeat;  }
+h2.serv a.pics:hover span { background:url(../images/service-icons/pics-bw.png) center top no-repeat;  }
+h2.serv a.cloud span, h2.serv a.cloud:visited span { background:url(../images/service-icons/cloud-bw.png) center bottom no-repeat;  }
+h2.serv a.cloud:hover span { background:url(../images/service-icons/cloud-bw.png) center top no-repeat;  }
+h2.serv a.sound span, h2.serv a.sound:visited span { background:url(../images/service-icons/sound-bw.png) center bottom no-repeat;  }
+h2.serv a.sound:hover span { background:url(../images/service-icons/sound-bw.png) center top no-repeat;  }
+h2.serv a.write span, h2.serv a.write:visited span { background:url(../images/service-icons/write-bw.png) center bottom no-repeat;  }
+h2.serv a.write:hover span { background:url(../images/service-icons/write-bpng) center top no-repeat;  }
+h2.serv a.chat span, h2.serv a.chat:visited span { background:url(../images/service-icons/chat-bw.png) center bottom no-repeat;  }
+h2.serv a.chat:hover span { background:url(../images/service-icons/chat-bw.png) center top no-repeat;  }
+h2.serv a.bell span, h2.serv a.bell:visited span { background:url(../images/service-icons/bell-bw.png) center bottom no-repeat;  }
+h2.serv a.bell:hover span { background:url(../images/service-icons/bell-bw.png) center top no-repeat;  }
+h2.serv a.eye span, h2.serv a.eye:visited span { background:url(../images/service-icons/eye-bw.png) center bottom no-repeat;  }
+h2.serv a.eye:hover span { background:url(../images/service-icons/eye-bw.png) center top no-repeat;  }
+
+
+}
+/* #Social Icons
+================================================== */
+
+.social { 
+	margin-bottom:15px; 
+	padding-top:10px 
+}
+
+/* Regular Devices ----------- */
+.social a { 
+	display:block; 
+	float:right; 
+	margin:0 3px 0 3px; 
+	text-indent:-9999px; 
+	width:30px; 
+	height:30px; 
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition:  all .2s ease-in-out; 
+	background-repeat:no-repeat;
+}
+
+a.twitter { background:url(../images/social/twitter-bw-30.png); }
+a.dribbble, a.dribbble:visited { background:url(../images/social/dribbble-bw-30.png); }
+a.facebook, a.facebook:visited { background:url(../images/social/facebook-bw-30.png); }
+a.linked, a.linked:visited { background:url(../images/social/linked-bw-30.png); }
+a.flickr, a.flickr:visited { background:url(../images/social/flickr-bw-30.png); }
+a.vimeo, a.vimeo:visited { background:url(../images/social/vimeo-bw-30.png); }
+a.plus, a.plus:visited { background:url(../images/social/plus-bw-30.png); }
+a.pin, a.pin:visited { background:url(../images/social/pin-bw-30.png); }
+a.stumble, a.stumble:visited { background:url(../images/social/stumble-bw-30.png); }
+
+
+/* HD Retina Devices ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+.social a { background-size: 30px 60px; }
+
+a.twitter { background:url(../images/social/twitter.png); }
+a.dribbble, a.dribbble:visited { background:url(../images/social/dribbble-bw.png); }
+a.facebook, a.facebook:visited { background:url(../images/social/facebook-bw.png); }
+a.linked, a.linked:visited { background:url(../images/social/linked-bw.png); }
+a.flickr, a.flickr:visited { background:url(../images/social/flickr-bw.png); }
+a.vimeo, a.vimeo:visited { background:url(../images/social/vimeo-bw.png); }
+a.plus, a.plus:visited { background:url(../images/social/plus-bw.png); }
+a.pin, a.pin:visited { background:url(../images/social/pin-bw.png); }
+a.stumble, a.stumble:visited { background:url(../images/social/stumble-bw.png); }
+  
+}
+
+.social a, .social a:visited { background-position: 0 0; }
+.social a:hover { background-position: 0 -30px; }
+
+@media only screen and (max-width: 767px) {
+	.header-social-container .columns { width:100%; text-align:center }
+	.social a { display:inline-block; float:none; margin:5px 2px 0 2px;  }
+	.social { margin-bottom:0px }
+}
+
+/* #Staff Social Icons
+================================================== */
+
+/* Regular Devices ----------- */
+.staff { 
+	margin:0; 
+	text-align:center 
+}
+
+.staff a { 
+	display:block; 
+	float:none; 
+	display:inline-block; 
+	margin:0px 3px 0 3px; 
+	text-indent:-9999px; 
+	width:20px; 
+	height:20px; 
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition:  all .2s ease-in-out; 
+	background-repeat:no-repeat;   
+}
+
+.staff a.twitter, .staff a.twitter:visited { background:url(../images/social/twitter-bw-20.png); }
+.staff a.dribbble, .staff a.dribbble:visited { background:url(../images/social/dribbble-bw-20.png); }
+.staff a.facebook, .staff a.facebook:visited { background:url(../images/social/facebook-bw-20.png); }
+.staff a.linked, .staff a.linked:visited { background:url(../images/social/linked-bw-20.png); }
+.staff a.flickr, .staff a.flickr:visited { background:url(../images/social/flickr-bw-20.png); }
+.staff a.vimeo, .staff a.vimeo:visited { background:url(../images/social/vimeo-bw-20.png); }
+.staff a.plus, .staff a.plus:visited { background:url(../images/social/plus-bw-20.png); }
+.staff a.pin, .staff a.pin:visited { background:url(../images/social/pin-bw-20.png); }
+.staff a.stumble, .staff a.stumble:visited { background:url(../images/social/stumble-bw-20.png); }
+
+/* HD Retina Devices ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+.staff a { background-size: 20px 40px; }
+
+.staff a.twitter { background:url(../images/social/twitter.png); }
+.staff a.dribbble, .staff a.dribbble:visited { background:url(../images/social/dribbble-bw.png); }
+.staff a.facebook, .staff a.facebook:visited { background:url(../images/social/facebook-bw.png); }
+.staff a.linked, .staff a.linked:visited { background:url(../images/social/linked-bw.png); }
+.staff a.flickr, .staff a.flickr:visited { background:url(../images/social/flickr-bw.png); }
+.staff a.vimeo, .staff a.vimeo:visited { background:url(../images/social/vimeo-bw.png); }
+.staff a.plus, .staff a.plus:visited { background:url(../images/social/plus-bw.png); }
+.staff a.pin, .staff a.pin:visited { background:url(../images/social/pin-bw.png); }
+.staff a.stumble, .staff a.stumble:visited { background:url(../images/social/stumble-bw.png); } 
+}
+
+.staff a  { background-position: 0 20px !important; }
+.staff a:hover { background-position: 0 0 !important; }
+
+/* #Footer Icons
+================================================== */
+
+p.address { 
+	padding-left:30px; 
+	background:url(../images/contact-icons/marker-bw-sm.png) 0 3px no-repeat 
+}
+
+p.phone { 
+	padding-left:30px; 
+	background:url(../images/contact-icons/phone-bw-sm.png) 0 3px no-repeat;
+}
+
+p.email { 
+	padding-left:30px; 
+	background:url(../images/contact-icons/mouse-bw-sm.png) 0 3px no-repeat;
+	min-height:36px
+}
+
+/* HD Retina Devices ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+p.phone { 
+	background:url(../images/contact-icons/phone-bw.png) 0 3px no-repeat;
+	background-size: 17px 30px;	 
+}
+p.address { 
+	background:url(../images/contact-icons/marker-bw.png) 0 3px no-repeat;
+	background-size: 17px 23px;	
+}
+p.email { 
+	background:url(../images/contact-icons/mouse-bw.png) 0 3px no-repeat;
+	background-size: 17px 32px;	
+}
+}
+
+
+/* #Twitter
+================================================== */
+
+#jstwitter {
+	width: 100%;
+}
+		
+#jstwitter .tweet {
+	margin: 0 auto 15px auto;
+	padding: 0 0 15px 0;
+	border-bottom: 2px dashed #000;
+	padding-left:35px; 
+	background:url(../images/contact-icons/twitter-sm-bw.png) 0 0 no-repeat; 
+}
+
+/* HD Retina Devices ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+#jstwitter .tweet {
+	background:url(../images/contact-icons/twitter-bw.png) 0 0 no-repeat; 
+	background-size: 30px 22px;	
+}
+}
+		
+#jstwitter .tweet .time {
+	font-size: 10px;
+	font-style: italic;
+	color: #666;
+}
+
+ /* #toTop Scrolling
+================================================== */
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/ui.totop-sm-bw.png) left top no-repeat;
+}
+
+#toTopHover {
+	background:url(../images/ui.totop-sm-bw.png) left bottom no-repeat;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
+
+/* HD Retina Devices ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+#toTop {
+	background:url(../images/ui.totop-bw.png) left top no-repeat;
+	background-size: 51px 102px; 
+}
+#toTopHover {
+	background:url(../images/ui.totop-bw.png) left bottom no-repeat;
+	background-size: 51px 102px; 
+}
+}
+
+
+
+
+/* #Portfolio
+================================================== */
+
+.port-item-container .zoom-inner {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%; 
+	background:url(../images/zoom/hover-bw.png) no-repeat scroll top center;  
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition:  all .2s ease-in-out; 
+}
+
+.port-item-container:hover .zoom-inner {
+    background:url(../images/zoom/hover-bw.png) no-repeat scroll center center; 
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition:  all .2s ease-in-out; 
+}
+
+
+/* portfolio email */
+.port-item-container.email .zoom-inner {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%; 
+	background:url(../images/zoom/email-bw.png) no-repeat scroll top center;  
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition:  all .2s ease-in-out; 
+}
+
+.port-item-container.email:hover .zoom-inner {
+    background:url(../images/zoom/email-bw.png) no-repeat scroll center center; 
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition:  all .2s ease-in-out; 
+}
+
+/* link */
+.port-item-container.link .zoom-inner {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%; 
+	background:url(../images/zoom/link-bw.png) no-repeat scroll top center;  
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition:  all .2s ease-in-out; 
+}
+
+.port-item-container.link:hover .zoom-inner {
+    background:url(../images/zoom/link-bw.png) no-repeat scroll center center; 
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition:  all .2s ease-in-out; 
+}
+
+/*video*/
+.port-item-container.video .zoom-inner {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%; 
+	background:url(../images/zoom/video-bw.png) no-repeat scroll top center;  
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition:  all .2s ease-in-out; 
+}
+
+.port-item-container.video:hover .zoom-inner {
+    background:url(../images/zoom/video-bw.png) no-repeat scroll center center; 
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition:  all .2s ease-in-out; 
+}
+
