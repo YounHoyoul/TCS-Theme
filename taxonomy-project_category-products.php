@@ -4,8 +4,9 @@
 global $wp_query;
 $args = array( 
 	'post_type' => 'project',
+	'project_category' => 'products',
 	'post_status' => 'publish',
-	'posts_per_page' => 100,
+	'posts_per_page' => 1000,
 	'meta_key' => 'project_order',
 	'orderby' => 'meta_value_num',
 	'order' => 'DESC');
