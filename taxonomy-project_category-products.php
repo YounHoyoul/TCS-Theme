@@ -25,10 +25,10 @@ query_posts( $args );
 		<div class="row mb0">
 			<div id="navsort">
 				<ul style="float:left;">
-					<li><a href="" title="*">All</a></li>
-					<li><a href="" title="rental">Rental</a></li>
-					<li><a href="" title="semi-permanent">Semi-Permanent</a></li>
-					<li><a href="" title="permanent">Permanent</a></li>
+					<li><a href="" title="*">ALL</a></li>
+					<li><a href="" title="rental">RENTAL</a></li>
+					<li><a href="" title="semi-permanent">SEMI-PERMANENT</a></li>
+					<li><a href="" title="permanent">PERMANENT</a></li>
 				</ul>
 				
 				<?php get_search_form(); ?>		
@@ -51,6 +51,8 @@ query_posts( $args );
 	</section><!-- /portfolio surround -->
 
 <?php endif; ?>
+
+<?php wp_reset_query(); ?>
 
 <?php get_sidebar(); ?>
 

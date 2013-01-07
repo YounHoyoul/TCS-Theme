@@ -25,10 +25,10 @@ query_posts( $args );
 		<div class="row mb0">
 			<div id="navsort" >
 				<ul style="float:left;">
-					<li><a href="" id="cat_all" title="*">All</a></li>
-					<li><a href="" id="cat_barnd" title="brand-activation">Brand Activation</a></li>
-					<li><a href="" id="cat_bespoke" title="bespoke-solution">Bespoke Solution</a></li>
-					<li><a href="" id="cat_digital" title="digital-platform">Digital Platform</a></li>
+					<li><a href="" id="cat_all" title="*">ALL</a></li>
+					<li><a href="" id="cat_barnd" title="brand-activation">BRAND ACTIVATION</a></li>
+					<li><a href="" id="cat_bespoke" title="bespoke-solution">BESPOKE SOLUTION</a></li>
+					<li><a href="" id="cat_digital" title="digital-platform">DIGITAL PLATFROM</a></li>
 				</ul>
 				
 				<?php get_search_form(); ?>		
@@ -51,6 +51,8 @@ query_posts( $args );
 	</section><!-- /portfolio surround -->
 
 <?php endif; ?>
+
+<?php wp_reset_query(); ?>
 
 <?php get_sidebar(); ?>
 

@@ -22,7 +22,7 @@
 				$description = preg_replace('/\n/','<br/>',$term->description);
 			?>
 			<p><?php echo $description; ?></p>
-			<a href="?project_category=brand-activation" class="btn">Go to related work <span>></span></a>
+			<a href="?project_category=brand-activation" class="gotobtn">Go to related work <span>></span></a>
 		</div>
 
 		<div class="one-third column service">
@@ -32,7 +32,7 @@
 				$description = preg_replace('/\n/','<br/>',$term->description);
 			?>
 			<p><?php echo $description; ?></p>
-			<a href="?project_category=bespoke-solution" class="btn">Go to related work <span>></span></a>
+			<a href="?project_category=bespoke-solution" class="gotobtn">Go to related work <span>></span></a>
 		</div>
 
 		<div class="one-third column service">
@@ -42,7 +42,7 @@
 				$description = preg_replace('/\n/','<br/>',$term->description);
 			?>
 			<p><?php echo $description; ?></p>
-			<a href="?project_category=rental" class="btn">Go to related work <span>></span></a>
+			<a href="?project_category=rental" class="gotobtn">Go to related work <span>></span></a>
 		</div>
 		
 	</div><!-- /services -->

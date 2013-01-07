@@ -705,7 +705,7 @@ function cmd(a,b,c){var d="";if(b.mode=="user"){d="https://api.instagram.com/v1/
 	
 	
 //Flickr Photo Retrive
-var numPics = 15;
+var numPics = 12;
 $.getJSON(
 	"http://api.flickr.com/services/feeds/photos_public.gne?id=65195433@N07&en-us&format=json&jsoncallback=?",
 	function (data) {
@@ -718,7 +718,7 @@ $.getJSON(
 			var imgThumb = item.media.m.split('m.jpg')[0] + 't.jpg';
 			var imgLarge = item.media.m.split('m.jpg')[0] + 'b.jpg';
 			//get and format images
-			textToInsert += '<a class="instagram-photo" rel="flickr_group" href="' + imgLarge + '" title="' + item.title + '"><img src="' + imgThumb + '" width="100%" height="100%"/></a>';
+			textToInsert += '<a class="instagram-photo" style="background-color:#fff;" rel="flickr_group" href="' + imgLarge + '" title="' + item.title + '"><img src="' + imgThumb + '" width="100%" height="100%"/></a>';
 		});
 
 		//clear contents of div

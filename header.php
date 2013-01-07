@@ -75,18 +75,21 @@
 	<div class="header-social-container">
 		<div class="container">
 			<div class="eight columns">
-				<p class="tagline"></p>
+				<p class="tagline">
+				<a href="<?php echo get_option('home'); ?>/"><image src="<?php bloginfo('template_directory'); ?>/images/tcs_logo_gray_text.png" height="23px" /></a>
+				</p>
 			</div>
 
 			<div class="eight columns">
 				<div class="social">
+					
 					<!--<a href="#" class="tip dribbble" title="Dribbble">Dribbble</a>-->
 					<!--<a href="#" class="tip stumble" title="Stumble Upon">Stumble Upon</a>-->
 					<!--<a href="#" class="tip vimeo" title="Vimeo">Vimeo</a>-->
 					<!--<a href="#" class="tip pin" title="Pinterest">Pinterest</a>-->
 					<!--<a href="#" class="tip plus" title="Google+">Google+</a>-->
-					<a href="#" class="tip twitter" title="Twitter">Twitter</a>
-					<a href="#" class="tip flickr" title="Flickr">Flickr</a>
+					<a href="https://twitter.com/thecreativeshop" class="tip twitter" title="Twitter">Twitter</a>
+					<a href="http://www.flickr.com/photos/65195433@N07/" class="tip flickr" title="Flickr">Flickr</a>
 					<a href="http://www.facebook.com/TheCreativeShopAustralia?fref=ts" class="tip facebook" title="Facebook">Facebook</a>
 				</div>
 			</div>
@@ -102,10 +105,11 @@
 		<div class="sixteen columns">
 			
 			<!-- logo -->
+			<!--
 			<h1 id="logo">
 				<a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a>
-				<!--<?php bloginfo('description'); ?>-->
 			</h1>
+			-->
 			<!-- /logo -->
 
 			<!-- main navigation -->

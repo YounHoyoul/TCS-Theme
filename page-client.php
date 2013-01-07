@@ -51,6 +51,7 @@ Template Name: Client
 		
 		<?php endwhile; ?>
 		<?php wp_reset_query(); ?>
+		
 	</div><!-- /services -->
 </section><!-- /main content -->
 

@@ -48,11 +48,15 @@ Template Name: Executive
 								</div>
 							</a>
 							<div style="display:none">
-								<div id="contents_<?php echo $post->ID;?>">
-									<img src="<?php echo $image[0];?>" style="float:left;margin-right:10px;margin-bottom:10px;">
-									<h3 style="float:left;margin-right:10px;"><?php the_title(); ?></h3>
-									<h5 style="padding-top:10px;"><?php echo $cfields["Position"][0]; ?></h5>
-									<p><?php the_content();?></p>
+								<div id="contents_<?php echo $post->ID;?>" class="popup_director_container">
+									<div class="popup_director_image">
+										<img src="<?php echo $image[0];?>">
+									</div>
+									<div class="popup_director_profile"> 
+										<h3 style="float:left;margin-right:10px;"><?php the_title(); ?></h3>
+										<h5 style="padding-top:10px;"><?php echo $cfields["Position"][0]; ?></h5>
+										<p><?php the_content();?></p>
+									</div>
 								</div>
 							</div>
 							
@@ -77,8 +81,8 @@ Template Name: Executive
 					
 					<div class="port_item_title">
 						<h4 class="staff-name"><?php the_title(); ?></h4>
-						<p class="staff-title"><em><?php echo $cfields["Position"][0]; ?></em></p>
-						<div style="height:200px;overflow:hidden;">
+						<p class="staff-title"><?php echo $cfields["Position"][0]; ?></p>
+						<div class="staff-content">
 							<p><?php the_excerpt();?></p>
 						</div>
 						<div class="staff social">
@@ -96,6 +100,8 @@ Template Name: Executive
 			<?php endif;?>
 			<?php $ndx++; ?>
 		<?php endwhile; ?>
+		<?php wp_reset_query(); ?>
+		
 	</div><!-- /row -->
 	
 </section><!-- /main content -->

@@ -115,7 +115,7 @@ $(window).load(function(){
 	$('#navsort a').click(function(){
 		var title = $(this).attr('title');
 		var text = $(this).text();
-		if(text == "All"){
+		if(text == "ALL"){
 			var selector = title;
 		}
 		else {

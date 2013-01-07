@@ -45,7 +45,7 @@ echo "HERE=".$authToken;
 			
 			<!-- footer col 2 -->
 			<div class="four columns">
-				<h3>Our Culture</h3>
+				<h3><a href="http://www.flickr.com/photos/65195433@N07/">Our Culture</a></h3>
 				<div class="footPadd">
 					<!--<div class="insta"></div>-->
 					<div id="flickr_images"></div>

@@ -58,6 +58,9 @@ query_posts( $args );
 		<?php else : ?>
 			<h2>Nothing found</h2>
 		<?php endif; ?> 
+		
+		<?php wp_reset_query(); ?>
+		
 	</div>
 </section><!-- /main content -->
 <?php get_sidebar(); ?>
