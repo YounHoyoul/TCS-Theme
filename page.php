@@ -16,33 +16,37 @@
 	<div class="row">
 
 		<div class="one-third column service">
-			<h2 class="serv"><a href="?project_category=digital-platform" class="gear"><span></span>PLATFORM</a></h2>
+			<h2 class="serv"><a href="?project_category=digital-platform" class="platform"><span></span>PLATFORM</a></h2>
 			<?php 
 				$term = get_term_by( 'slug', 'brand-activation', 'project_category' ); 
 				$description = preg_replace('/\n/','<br/>',$term->description);
 			?>
 			<p><?php echo $description; ?></p>
-			<a href="?project_category=brand-activation" class="gotobtn">Go to related work <span>></span></a>
+			<a href="?project_category=brand-activation" class="gotobtn">Go to related work
+				<span><img src="<?php bloginfo('template_directory'); ?>/images/related_work_arrow.png"></span>
+			</a>
 		</div>
 
 		<div class="one-third column service">
-			<h2 class="serv"><a href="?project_category=bespoke-solution" class="users"><span></span>BESPOKE</a></h2>
+			<h2 class="serv"><a href="?project_category=bespoke-solution" class="bespoke"><span></span>BESPOKE</a></h2>
 			<?php 
 				$term = get_term_by( 'slug', 'bespoke-solution', 'project_category' ); 
 				$description = preg_replace('/\n/','<br/>',$term->description);
 			?>
 			<p><?php echo $description; ?></p>
-			<a href="?project_category=bespoke-solution" class="gotobtn">Go to related work <span>></span></a>
+			<a href="?project_category=bespoke-solution" class="gotobtn">Go to related work 
+				<span><img src="<?php bloginfo('template_directory'); ?>/images/related_work_arrow.png"></span></a>
 		</div>
 
 		<div class="one-third column service">
-			<h2 class="serv"><a href="?project_category=rental" class="files"><span></span>RENTAL</a></h2>
+			<h2 class="serv"><a href="?project_category=rental" class="rental"><span></span>RENTAL</a></h2>
 			<?php 
 				$term = get_term_by( 'slug', 'rental', 'project_category' ); 
 				$description = preg_replace('/\n/','<br/>',$term->description);
 			?>
 			<p><?php echo $description; ?></p>
-			<a href="?project_category=rental" class="gotobtn">Go to related work <span>></span></a>
+			<a href="?project_category=rental" class="gotobtn">Go to related work 
+				<span><img src="<?php bloginfo('template_directory'); ?>/images/related_work_arrow.png"></span></a>
 		</div>
 		
 	</div><!-- /services -->

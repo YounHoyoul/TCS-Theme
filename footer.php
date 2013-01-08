@@ -1,33 +1,3 @@
-<?php
-/*
-function fetchUrl($url){
-     $ch = curl_init();
-     curl_setopt($ch, CURLOPT_URL, $url);
-     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-     curl_setopt($ch, CURLOPT_TIMEOUT, 20);
- 
-     $retData = curl_exec($ch);
-     curl_close($ch); 
- 
-     return $retData;
-}
-
-$profile_id = "100001919044204";
- 
-//App Info, needed for Auth
-$app_id = "413551428717241";
-$app_secret = "9d0175fb2590dbd516e83459685c9be9	";
- 
-//retrieve a new Auth token
-//echo "https://graph.facebook.com/oauth/access_token?type=client_cred&client_id={$app_id}&client_secret={$app_secret}";
-$authToken = fetchUrl("https://graph.facebook.com/oauth/access_token?type=client_cred&client_id={$app_id}&client_secret={$app_secret}");
-
-echo "HERE=".$authToken;
-
-// fetch profile feed with the Auth token appended
-//$data['feed_data'] = fetchUrl("https://graph.facebook.com/{$profile_id}/feed?{$authToken}");
-*/
-?>
 
 	<!-- footer -->
 	<footer class="footerContainer">
@@ -57,7 +27,29 @@ echo "HERE=".$authToken;
 				<h3><a href="http://www.facebook.com/TheCreativeShopAustralia?fref=ts">Facebook Talk</a></h3>
 				<div class="footPadd">
 					<!--<div id="jstwitter"></div>-->
-					<div id="facebook_feed">I have to develop this after upload source to server.</div>
+					<div id="facebook_feed">
+						<?php
+						//replace the Page ID with your own
+						$url = "http://www.facebook.com/feeds/page.php?format=json&id=193181777367269"; 
+						 
+						// uses the function and displays the text off the website 
+						$text = disguise_curl($url); 
+
+						$json_feed_object = json_decode($text);
+						$ndx = 0;
+						if(!empty($json_feed_object)){
+							foreach ( $json_feed_object->entries as $entry ){
+								echo "<h6><a href='{$entry->alternate}'>{$entry->title}</a></h6>";
+								$published = date("g:i A F j, Y", strtotime($entry->published));
+								echo "<small>{$published}</small>";
+								//echo "<p>{$entry->content}</p>";
+								if($ndx == 3) break;
+								echo "<hr />";
+								$ndx++;
+							}
+						}
+						?>
+					</div>
 					<?php //get_sidebar("fb"); ?>
 				 </div>
 			</div><!-- footer col 3 -->

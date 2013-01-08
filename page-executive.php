@@ -86,9 +86,9 @@ Template Name: Executive
 							<p><?php the_excerpt();?></p>
 						</div>
 						<div class="staff social">
-							<a href="mailto:<?php echo $cfields["Email"][0]; ?>" class="tip plus" title="Email">Email</a>
-							<a href="<?php echo $cfields["LinkedIn"][0]; ?>" class="tip linked" title="LinkedIn">LinkedIn</a>
-							<a href="<?php echo $cfields["Facebook"][0]; ?>" class="tip facebook" title="Facebook">Facebook</a>
+							<a href="mailto:<?php echo $cfields["Email"][0]; ?>" class="tip email" title="Email">Email</a>
+							<a href="<?php echo $cfields["LinkedIn"][0]; ?>" class="tip linked2" title="LinkedIn">LinkedIn</a>
+							<a href="<?php echo $cfields["Facebook"][0]; ?>" class="tip facebook2" title="Facebook">Facebook</a>
 						</div>
 					</div>
 					

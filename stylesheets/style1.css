@@ -630,19 +630,19 @@ p.creditsRight {
 p.address { 
 	padding-left:30px; 
 	letter-spacing:0px;
-	background:url(../images/contact-icons/marker-sm.png) 0 3px no-repeat 
+	background:url(../images/contact-icons/marker2-sm.png) 0 3px no-repeat 
 }
 
 p.phone { 
 	padding-left:30px; 
 	letter-spacing:0px;
-	background:url(../images/contact-icons/phone-sm.png) 0 3px no-repeat;
+	background:url(../images/contact-icons/phone2-sm.png) 0 3px no-repeat;
 }
 
 p.email { 
 	padding-left:30px; 
 	letter-spacing:0px;
-	background:url(../images/contact-icons/mouse-sm.png) 0 3px no-repeat;
+	background:url(../images/contact-icons/mouse2-sm.png) 0 3px no-repeat;
 	min-height:36px
 }
 
@@ -2424,6 +2424,10 @@ a.stumble, a.stumble:visited { background:url(../images/social/stumble.png); }
 .staff a.pin, .staff a.pin:visited { background:url(../images/social/pin-20.png); }
 .staff a.stumble, .staff a.stumble:visited { background:url(../images/social/stumble-20.png); }
 
+.staff a.email, .staff a.email:visited { background:url(../images/social/email-20.png); }
+.staff a.facebook2, .staff a.facebook2:visited { background:url(../images/social/facebook2-20.png); }
+.staff a.linked2, .staff a.linked2:visited { background:url(../images/social/linked2-20.png); }
+
 /* HD Retina Devices ----------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -2576,6 +2580,12 @@ h2.serv a.bell:hover span { background:url(../images/service-icons/bell-sm.png) 
 h2.serv a.eye span, h2.serv a.eye:visited span { background:url(../images/service-icons/eye-sm.png) center bottom no-repeat;  }
 h2.serv a.eye:hover span { background:url(../images/service-icons/eye-sm.png) center top no-repeat;  }
 
+h2.serv a.platform span, h2.serv a.platform:visited span { background:url(../images/service-icons/platform-sm.png) center bottom no-repeat;  }
+h2.serv a.platform:hover span { background:url(../images/service-icons/platform-sm.png) center top no-repeat;  }
+h2.serv a.bespoke span, h2.serv a.bespoke:visited span { background:url(../images/service-icons/bespoke-sm.png) center bottom no-repeat;  }
+h2.serv a.bespoke:hover span { background:url(../images/service-icons/bespoke-sm.png) center top no-repeat;  }
+h2.serv a.rental span, h2.serv a.rental:visited span { background:url(../images/service-icons/rental-sm.png) center bottom no-repeat;  }
+h2.serv a.rental:hover span { background:url(../images/service-icons/rental-sm.png) center top no-repeat;  }
 /* HD Retina Devices ----------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -3406,10 +3416,10 @@ ul.tabs {
 a.gotobtn{
 	color:#ffffff;
 	background:#000000;
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:15px;
-	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
 	font-style:italic;
 	font-size:13px;
 	font-weight:bold;
@@ -3461,4 +3471,13 @@ a.gotobtn:hover span{
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	.popup_director_container {width:500px !important;}
 	.popup_director_profile{width:270px;}
+}
+
+#facebook_feed h6{
+	color:#a0a0a0;
+}
+
+#facebook_feed hr{
+	margin-bottom:10px;
+	border-color:#303030;
 }
