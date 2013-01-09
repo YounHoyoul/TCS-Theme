@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
 		
 		
 //Portfolio
-$(window).load(function(){
+$(document).ready(function(){
 
 	//Portfolio
 	var $container = $('#portfolio-content');
@@ -98,6 +98,8 @@ $(window).load(function(){
 			toFilter = global_filter;
 		}
 	}
+
+	$(".projects").show();
 	
 	$container.isotope({
 		filter: toFilter,
@@ -107,7 +109,7 @@ $(window).load(function(){
 			queue: false,
 		}
 	});
-
+	
 	$container.attr('data-current',toFilter);
 
 	checkActive();

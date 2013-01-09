@@ -1661,14 +1661,14 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .entry-title a:hover { 
-	color:#ea4128; 
+	color:#ff0000; /*color:#ea4128;*/
 	text-decoration:none; 
-	text-shadow: 2px 1px 0 #F5F5F5, 3px 3px 0 #B8B8B5;  
+	/*text-shadow: 2px 1px 0 #F5F5F5, 3px 3px 0 #B8B8B5; */
 	-webkit-transition: all .1s ease-in-out;
 	-moz-transition: all .1s ease-in-out;
 	-o-transition: all .1s ease-in-out;
 	transition:  all .1s ease-in-out;
-	position:relative; top:-2px; left:-2px;
+	/*position:relative; top:-2px; left:-2px;*/
 }
 
 .post {  
