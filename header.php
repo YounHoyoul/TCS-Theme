@@ -76,7 +76,7 @@
 		<div class="container">
 			<div class="eight columns">
 				<p class="tagline">
-				<a href="<?php echo get_option('home'); ?>/"><image src="<?php bloginfo('template_directory'); ?>/images/tcs_logo_gray_text.png" height="23px" /></a>
+				<a href="<?php echo get_option('home'); ?>/"><image src="<?php bloginfo('template_directory'); ?>/images/tcs_logo_white_text.png" height="23px" /></a>
 				</p>
 			</div>
 

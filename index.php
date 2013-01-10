@@ -44,11 +44,12 @@
 	<!-- hipster title -->
 	<div class="row sixteen columns">  
 		<div class="star-row"></div>
-			<h2 class="home-title" >We're <span>The Creative Shop</span>,<br/>An amazing creative agency.</h2>
+		<h2 class="home-title" >We're <span>The Creative Shop</span>,<br/>An amazing creative agency.</h2>
 		<div class="star-row mb25"></div>
 	</div><!-- /hipster title -->
 			
 	<!-- services -->
+	<div class="row"></div>
 	<!--
 	<div class="row">
 

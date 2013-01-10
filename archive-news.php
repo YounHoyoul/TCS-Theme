@@ -12,9 +12,6 @@ $args = array(
 	'order' => 'DESC');
 $args = array_merge( $wp_query->query,$args);
 query_posts( $args );
-
-//print_r($wp_query);
-
 ?>
 
 <!-- main content -->

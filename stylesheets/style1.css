@@ -103,8 +103,8 @@
 ================================================== */
 
 body { 
-	background:url(../images/backgrounds/pageBack.jpg);
-	font: 12px/20px 'Titillium Web', 'Droid Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;  /*YHY add font-face*/
+	/*background:url(../images/backgrounds/pageBack.jpg);*/
+	font: 14px/20px 'Titillium Web', 'Droid Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;  /*YHY add font-face*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -153,7 +153,7 @@ blockquote {
 }
 
 ::selection { 
-	background:#ea4128; 
+	background:#ff0000; /*background:#ea4128;*/
 	color:#fff; 
 	text-shadow: none 
 }
@@ -285,7 +285,7 @@ h1.contact-title {
 }
 
 .home-title span { 
-	color:#ea4128 
+	color:#ff0000;/*color:#ea4128*/ 
 }
 	
 .outlined {
@@ -315,7 +315,7 @@ h3.lines {
 h2.sub-title {
 	font-size:28px; 
 	font-weight:normal; 
-	text-transform:uppercase; 
+	/*text-transform:uppercase;*/
 	background:url(../images/seps/dashed.png);
 	text-align:center;
 	font-family: 'Titillium Web', 'LeagueGothicRegular', 'Helvetica Neue', Helvetica, Arial, Sans-Serif; /*YHY add font-face*/
@@ -459,7 +459,7 @@ ul.diamond li {
 #logo { 
 	width:200px; 
 	height:83px; 
-	background:url(../images/TCS_logo_gray_text.PNG) 0 0 no-repeat;  
+	background:url(../images/tcs_logo_white_text.png) 0 0 no-repeat;  
 	margin:0 auto; 
 	margin-top:35px; 
 	margin-bottom:15px;
@@ -478,7 +478,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 */
 #logo { 
-	background:url(../images/logo-tcs.png) 0 0 no-repeat;  
+	background:url(../images/tcs_logo_white_text.png) 0 0 no-repeat;  
 	background-size: 340px 78px;
 }
 }
@@ -493,7 +493,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 */
 #logo { 
-	background:url(../images/logo-tcs.png) top center no-repeat;
+	background:url(../images/tcs_logo_white_text.png) top center no-repeat;
 	height:69px;
 	width:300px
 }
@@ -514,7 +514,7 @@ only screen and (min-device-pixel-ratio: 1.5) and (max-width: 479px) {
 }
 */
 #logo { 
-	background:url(../images/logo-tcs.png) top center no-repeat;
+	background:url(../images/tcs_logo_white_text.png) top center no-repeat;
 	width:300px; 
 	height:69px;
 	background-size: 300px 69px;
@@ -672,7 +672,7 @@ a.menu-link {
 	float: right;
 	display: block;
 	font-family: 'Titillium Web', 'LeagueGothicRegular', 'Helvetica Neue', Helvetica, Arial, Sans-Serif; /*YHY add font-face*/
-	color:#ea4128; 
+	color:#ff0000;/*color:#ea4128;*/ 
 	font-size:25px;
 	padding:15px
 }
@@ -734,7 +734,7 @@ a.menu-link.active:before {
 	padding:15px 0 15px 10px;
 	background:#181818; 
 	font-family: 'Titillium Web', 'LeagueGothicRegular', 'Helvetica Neue', Helvetica, Arial, Sans-Serif; /*YHY add font-face*/
-	color:#ea4128 !important;
+	color:#ff0000 !important;/*color:#ea4128 !important;*/
 	font-size:22px 
 }
 
@@ -746,7 +746,6 @@ a.menu-link.active:before {
 .menu li li li a, .menu li li li a:visited {
 	background-color:#fff
 }
-
 
 .menu li a:hover {
 	background-color: #0d0d0d
@@ -851,7 +850,7 @@ ul.level-1 {
 }
 	
 .menu li span { 
-	color:#ea4128;  
+	color:#ff0000;/*color:#ea4128;*/  
 	font-size:30px; 
 }
 
@@ -876,7 +875,7 @@ ul.level-1 {
 	
 .menu ul li:hover a{
 	text-decoration:none;
-	color:#ea4128; 
+	color:#ff0000;/*color:#ea4128;*/
 }
 
 .menu ul ul a:hover {
@@ -895,7 +894,7 @@ ul.level-1 {
 		
 .menu ul li:hover ul a:hover{
 	text-decoration:none;
-	background:#ea4128; 
+	background:#ff0000;/*background:#ea4128;*/
 	color:#fff;
 }
 		
@@ -906,7 +905,7 @@ ul.level-1 {
 }
 
 .active-link {
-	color:#ea4128 !important
+	color:#ff0000 !important/*color:#ea4128 !important*/
 }
 	
 .pattern {
@@ -996,7 +995,7 @@ a.menu-link {
 }
 	
 .lt-ie9 .menu li span { 
-	color:#ea4128;  
+	color:#ff0000; /*color:#ea4128;*/
 	font-size:30px; 
 }
 
@@ -1021,7 +1020,7 @@ a.menu-link {
 	
 .lt-ie9 .menu ul li:hover a{
 	text-decoration:none;
-	color:#ea4128; 
+	color:#ff0000;/*color:#ea4128;*/ 
 }
 		
 .lt-ie9 .menu ul li:hover ul a{
@@ -1031,7 +1030,7 @@ a.menu-link {
 		
 .lt-ie9 .menu ul li:hover ul a:hover{
 	text-decoration:none;
-	background:#ea4128; 
+	background:#ff0000;/*background:#ea4128;*/
 	color:#fff;
 }
 		
@@ -1042,7 +1041,7 @@ a.menu-link {
 }
 
 .lt-ie9 .active-link {
-	color:#ea4128 !important
+	color:#ff0000 !important/*color:#ea4128 !important*/
 }
 	
 .lt-ie9 .pattern {
@@ -1217,7 +1216,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 .active-header:hover {
 	background: url(../images/active-header.gif) #181818;
-	color:#ea4128;
+	color:#ff0000;/*color:#ea4128;*/
 	background-repeat: no-repeat;
 	background-position: right 50%;
 }
@@ -1316,11 +1315,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	height:51px;
 	border:none;
 	text-indent:-999px;
-	background:url(../images/ui.totop-sm.png) left top no-repeat;
+	background:url(../images/ui.totop2-sm.png) left top no-repeat;
 }
 
 #toTopHover {
-	background:url(../images/ui.totop-sm.png) left bottom no-repeat;
+	background:url(../images/ui.totop2-sm.png) left bottom no-repeat;
 	width:51px;
 	height:51px;
 	display:block;
@@ -1341,11 +1340,11 @@ only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
 #toTop {
-	background:url(../images/ui.totop.png) left top no-repeat;
+	background:url(../images/ui.totop2.png) left top no-repeat;
 	background-size: 51px 102px; 
 }
 #toTopHover {
-	background:url(../images/ui.totop.png) left bottom no-repeat;
+	background:url(../images/ui.totop2.png) left bottom no-repeat;
 	background-size: 51px 102px; 
 }
 }
@@ -1499,7 +1498,7 @@ div.success, div.error {
 }
 
 div.success h4 { 
-	color:#ea4128 
+	color:#ff0000;/*color:#ea4128 */
 }
 
 #contactWrapper .success p { 
@@ -1634,7 +1633,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .blog-meta span.icon-categories a:visited, 
 .blog-meta span.icon-tags a, 
 .blog-meta span.icon-tags a:visited { 
-	color:#ea4128; 
+	color:#ff0000; /*color:#ea4128; */
 	text-decoration:none 
 }
 
@@ -1706,7 +1705,7 @@ p.excerpt {
 }
 
 p.excerpt a, p.excerpt a:visited { 
-	color:#ea4128; 
+	color:#ff0000;/*color:#ea4128;*/ 
 	text-decoration:none; 
 	font-weight:bold 
 }
@@ -1731,7 +1730,7 @@ ul.pagination li {
 
 ul.pagination li a, ul.pagination li a:visited { 
 	display:inline-block; 
-	background:#ea4128; 
+	background:#ff0000; /*background:#ea4128;*/ 
 	border:1px solid #e5e5e5;
 	color:#fff; 
 	text-align:center; 
@@ -1746,7 +1745,7 @@ ul.pagination li a, ul.pagination li a:visited {
 
 ul.pagination li a:hover, ul.pagination li.current-page a { 
 	display:inline-block; 
-	color:#ea4128; 
+	color:#ff0000;/*color:#ea4128;*/
 	background:#181818; 
 	color:#fff; 
 	text-align:center; 
@@ -1773,7 +1772,7 @@ ul.pagination li a:hover, ul.pagination li.current-page a {
 	-o-transition: all .1s ease-in-out;
 	transition:  all .1s ease-in-out;
 	position:relative; top:0px; left:0px;
-	background:#ea4128;
+	background:#ff0000;/*background:#ea4128;*/
 }
 
 .tags a:hover {
@@ -2163,7 +2162,7 @@ div.port-item-container:hover .zoom {
 #navsort a, #navsort a:visited { 
 	 
 	background:#ff0000;/*background:#EA4128; */
-	font-size:14px;
+	font-size:13px;
 	border:1px solid #e5e5e5;
 	color:#fff; 
 	text-align:center; 
@@ -2509,7 +2508,10 @@ h2.serv a {
 	padding-top:0; 
 	min-width:122px; 
 	width:100%;
-	cursor:pointer
+	cursor:pointer;
+	letter-spacing:-1px;
+	font-size:24px;
+	font-weight:bold;
 }
 
 h2.serv a span { 
@@ -2877,7 +2879,7 @@ h2.serv a.eye:hover span { background:url(../images/service-icons/eye.png) cente
 }
 
 .lt-ie9 .fancybox-title-float-wrap .child {
-	background:#ea4128;
+	background:#ff0000;/*background:#ea4128;*/
 }
 
 .fancybox-title-outside-wrap {
@@ -3242,15 +3244,27 @@ h2.serv a.eye:hover span { background:url(../images/service-icons/eye.png) cente
 /* #Buttons
 ================================================== */
 
+#contactWrapper button{
+	margin-left:200px;
+}
+
+@media only screen and (max-width: 767px) {
+	#contactWrapper button{
+		margin-left:0px;
+	}
+}
+
 .button, .button:visited,
 button,
+#contactWrapper button:hover,
+.ufo-frontendbutton,
 input[type="submit"], 
 input[type="reset"],
 input[type="button"] {
 	-moz-box-shadow: 2px 2px 0 rgba(158, 158, 158, 0.3);
 	-webkit-box-shadow: 2px 2px 0 rgba(158, 158, 158, 0.3);
 	box-shadow: 2px 2px 0 rgba(158, 158, 158, 0.3);
-    background:  #EA4128;
+    background:  #ff0000;/*background:  #EA4128;*/
     color: #fff;
     font: 22px 'LeagueGothicRegular', 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
     letter-spacing: 1px;
@@ -3268,6 +3282,7 @@ input[type="button"] {
 	-webkit-appearance: none;
 	}
 
+#contactWrapper button,
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -3376,6 +3391,7 @@ ul.tabs {
 
 #page_nav{
 	width:100%;
+	text-align:center;
 }
 
 #page_nav:after{

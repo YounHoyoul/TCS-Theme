@@ -1,4 +1,4 @@
-<div class="port-item-container link">
+<div class="port-item-container hover">
 	<div class="port-box">
 		<div class="zoom-holder">
 			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
@@ -20,8 +20,8 @@
 			<a rel="bookmark" title="<?php the_title(); ?>" href="<?php the_permalink() ?>">
 			<?php 
 			$title = trim(get_the_title());
-			if(strlen($title) > 27){
-				echo substr($title,0,24)."...";
+			if(strlen($title) > 24){
+				echo trim(substr($title,0,21))."...";
 			}else{
 				echo $title;
 			}
@@ -36,8 +36,8 @@
 		<div style="margin-top:-5px;">
 			<span>
 			<?php 
-			if(strlen($cat_list) > 33){
-				echo substr($cat_list,0,30)."...";
+			if(strlen($cat_list) > 30){
+				echo trim(substr($cat_list,0,27))."...";
 			}else{
 				echo $cat_list;
 			}
