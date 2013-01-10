@@ -2519,6 +2519,11 @@ h2.serv a {
 	letter-spacing:-1px;
 	font-size:24px;
 	font-weight:bold;
+	color:#000000;
+}
+
+h2.serv:hover a{
+	color:#ff0000;
 }
 
 h2.serv a span { 
@@ -3503,4 +3508,8 @@ a.gotobtn:hover span{
 #facebook_feed hr{
 	margin-bottom:10px;
 	border-color:#303030;
+}
+
+.project-category{
+	font-size:12px;
 }

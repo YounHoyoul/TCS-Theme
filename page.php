@@ -45,7 +45,7 @@
 				$description = preg_replace('/\n/','<br/>',$term->description);
 			?>
 			<p><?php echo $description; ?></p>
-			<a href="<?php echo get_option('home'); ?>/project_category/rental/" class="gotobtn">Go to related work 
+			<a href="<?php echo get_option('home'); ?>/project_category/rental/" class="gotobtn">Go to related work
 				<span><img src="<?php bloginfo('template_directory'); ?>/images/related_work_arrow.png"></span></a>
 		</div>
 		

@@ -34,7 +34,7 @@
 			$cat_list = implode("/", $term_list);
 		?>
 		<div style="margin-top:-5px;">
-			<span>
+			<span class="project-category">
 			<?php 
 			if(strlen($cat_list) > 30){
 				echo trim(substr($cat_list,0,27))."...";
