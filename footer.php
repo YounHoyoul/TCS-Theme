@@ -7,7 +7,7 @@
 		
 			<!-- footer col 1 -->
 			<div class="four columns">
-				<h3><a href="?page_id=29">Company Description</a></h3>
+				<h3><a href="<?php echo get_option('home'); ?>/business-silos/">Company Description</a></h3>
 				<div class="footPadd">
 					<?php echo str_replace("\n","<br/>",get_option( "companyinfo", "" )); ?> 
 				</div>
@@ -56,7 +56,7 @@
 		
 			<!-- footer col 4 -->
 			<div class="four columns">
-				<h3><a href="?page_id=100">Contact Us</a></h3>
+				<h3><a href="<?php echo get_option('home'); ?>/contact/">Contact Us</a></h3>
 				<div class="footPadd">
 					<p class="address">
 					<?php echo get_option( "addr1", "Suite 6.06 -6.07, Level 6," ); ?> <br/>

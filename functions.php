@@ -53,13 +53,21 @@
 	function wp_nav_menu_remove_attributes( $menu ){
 		global $hasSubNav;
 		//return $menu = preg_replace('/ id=\"(.*)\" class=\"(.*)\"/iU', '', $menu );
+		
+		$menu = str_replace('http://%home%', get_option('home'), $menu );
 		$menu = str_replace('sub-menu', 'level-2', $menu );
 		$xml = new SimpleXMLElement($menu);
+		
+		//print_r($xml);
+		
 		foreach($xml->li as $li) {
 			if($li->count() > 1){
 				$menu = str_replace($li['class'], 'has-subnav', $menu );
+			}else{
+				$menu = str_replace($li['class'], '', $menu );
 			}
 		}
+		
 		return $menu;
 	}
 	add_filter( 'wp_nav_menu', 'wp_nav_menu_remove_attributes' );

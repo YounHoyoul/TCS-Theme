@@ -16,7 +16,12 @@
 							
 			<?php $image=get_post_meta($post->ID,"news_photo1",true);?>
 			<?php if(!empty($image)):?>
-				<img src="<?php echo $image;?>">
+				<?php $pos = strrpos($image,"http://");?>
+				<?php if($pos === false):?>
+					<img src="<?php echo get_option('home'); ?>/<?php echo $image;?>">
+				<?php else:?>
+					<img src="<?php echo $image;?>">
+				<?php endif;?>
 			<?php endif;?>
 			<?php the_content(); ?>
 			<?php $ref=get_post_meta($post->ID,"news_ref",true);?>

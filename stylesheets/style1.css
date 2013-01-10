@@ -721,244 +721,251 @@ a.menu-link.active:before {
 /* small screen nav */
 		
 @media screen and (max-width: 48.25em) {
-			
-#pattern {
-	background-color: rgba(204, 204, 204, 0.1);
-	border-bottom: 4px double #ddd;
-    border-top: 4px double #ddd;
-	width:100%; 
-	position:relative; 	
-}
-			
-.menu li a, .menu li a:visited {
-	padding:15px 0 15px 10px;
-	background:#181818; 
-	font-family: 'Titillium Web', 'LeagueGothicRegular', 'Helvetica Neue', Helvetica, Arial, Sans-Serif; /*YHY add font-face*/
-	color:#ff0000 !important;/*color:#ea4128 !important;*/
-	font-size:22px 
-}
+				
+	#pattern {
+		background-color: rgba(204, 204, 204, 0.1);
+		border-bottom: 4px double #ddd;
+		border-top: 4px double #ddd;
+		width:100%; 
+		position:relative; 	
+	}
+				
+	.menu li a, .menu li a:visited {
+		padding:15px 0 15px 10px;
+		background:#181818; 
+		font-family: 'Titillium Web', 'LeagueGothicRegular', 'Helvetica Neue', Helvetica, Arial, Sans-Serif; /*YHY add font-face*/
+		color:#ff0000 !important;/*color:#ea4128 !important;*/
+		font-size:22px 
+	}
 
-.menu li li a, .menu li li a:visited {
-	background-color:#eee; 
-	color:#181818 !important
-}
+	.menu li li a, .menu li li a:visited {
+		background-color:#eee; 
+		color:#181818 !important
+	}
 
-.menu li li li a, .menu li li li a:visited {
-	background-color:#fff
-}
+	.menu li li li a, .menu li li li a:visited {
+		background-color:#fff
+	}
 
-.menu li a:hover {
-	background-color: #0d0d0d
-}
+	.menu li a:hover {
+		background-color: #0d0d0d
+	}
 
-.menu li li a:hover {
-	background-color: #e6e6e6
-}
+	.menu li li a:hover {
+		background-color: #e6e6e6
+	}
 
-.menu li li li a:hover {
-	background-color: #f7f7f7;
-	color:#181818 !important
-}
+	.menu li li li a:hover {
+		background-color: #f7f7f7;
+		color:#181818 !important
+	}
 
 
-.menu li  ul{ 
-	margin:0px 
-}
+	.menu li  ul{ 
+		margin:0px 
+	}
 
-.menu li {
-	margin:0px; 
-}
+	.menu li {
+		margin:0px; 
+	}
 
-.menu li a span {
-	display:none
-}
+	.menu li a span {
+		display:none
+	}
 
-.menu, .menu > ul ul {
-	clear: both;
-	-webkit-transition: all 0.5s ease-in-out;  
-	-moz-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;	
-}
-	
-.menu li.has-subnav > a:after {
-	content: '+';
-	position: absolute;
-	top: 18px;
-	right: 22px;
-	display: block;
-	font-size: 1.5em;
-	padding: 0; 
-	color:#fff
-	
-}
+	.menu, .menu > ul ul {
+		clear: both;
+		-webkit-transition: all 0.5s ease-in-out;  
+		-moz-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;	
+	}
+		
+	.menu li.has-subnav > a:after {
+		content: '+';
+		position: absolute;
+		top: 18px;
+		right: 22px;
+		display: block;
+		font-size: 1.5em;
+		padding: 0; 
+		color:#fff
+		
+	}
 
-.menu li li.has-subnav > a:after {
-	content: '+';
-	position: absolute;
-	top: 18px;
-	right: 22px;
-	display: block;
-	font-size: 1.5em;
-	padding: 0; 
-	color:#181818
-	
-}
+	.menu li li.has-subnav > a:after {
+		content: '+';
+		position: absolute;
+		top: 18px;
+		right: 22px;
+		display: block;
+		font-size: 1.5em;
+		padding: 0; 
+		color:#181818
+		
+	}
 
-.menu li.has-subnav > a.active:after {
-	font-family: 'Titillium Web', Arial, Helvetica, sans-serif; /*YHY add font-face*/
-	content: "-";
-	position: absolute;
-	top: 14px;
-	right: 26px;
-}
+	.menu li.has-subnav > a.active:after {
+		font-family: 'Titillium Web', Arial, Helvetica, sans-serif; /*YHY add font-face*/
+		content: "-";
+		position: absolute;
+		top: 14px;
+		right: 26px;
+	}
 		
 }
 
 /* large screen nav */
 @media screen and (min-width: 48.25em) {
-	
-ul.level-2 {display:none; width:200px;}
-.menu {text-align:center}
-.menu li{text-align:left}
-.menu li a {display:inline-block}
-.menu li li a {display:block}
 		
-ul.level-1 {
-	text-align:center;
-	position:relative; 
-	margin:20px 0 5px 0;
- 	background-color: rgba(204, 204, 204, 0.1);
-	border-bottom: 4px double #ddd;
-    border-top: 4px double #ddd;
-	float: left; 
-	line-height: 1;  
-	width: 100%;
-	padding:12px 0 0 0	
-}
+	ul.level-2 {
+		display:none; 
+		width:200px;
+	}
 	
-.menu ul a {
-	padding:8px 0px 8px 15px;
-	font-family: 'Titillium Web', 'KelmscottRomanRegular', Arial, sans-serif; /*YHY add font-face*/
-	color:#181818; 
-	font-size:16px; /*YHY 24px -> 16px*/ 
-	font-weight:normal;
-	text-decoration:none;
-	display: block; 
-	position: relative;
-}
-	
-.menu li span { 
-	color:#ff0000;/*color:#ea4128;*/  
-	font-size:30px; 
-}
-
-.menu ul li.last a span, .menu ul li li span {
-	display:none
-}
-
-.menu ul a span {
-    display:inline-block;
-	padding-left:15px; 
-	position:relative; 
-	top:0px;
-	letter-spacing:-4px
-}
-	
-.menu ul li li {
-	padding:0 15px 0 0px; 
-	margin:0; 
-	border-left:2px solid #ff0000; /*border-left:2px solid #ea4128; */
-	background:#181818; 
-}
-	
-.menu ul li:hover a{
-	text-decoration:none;
-	color:#ff0000;/*color:#ea4128;*/
-}
-
-.menu ul ul a:hover {
-	-webkit-transition: all 0.3s ease-out;  
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-}
-		
-.menu ul li:hover ul a{
-	text-decoration:none;
-	background:none;
-	color:#fff; /*add*/
-}
-		
-.menu ul li:hover ul a:hover{
-	text-decoration:none;
-	background:#ff0000;/*background:#ea4128;*/
-	color:#fff;
-}
-		
-.menu ul ul a, .menu ul ul ul a {
-	padding:10px 5px 10px 10px;
-	border-bottom:1px solid #333;
-	
-}
-
-.active-link {
-	color:#ff0000 !important/*color:#ea4128 !important*/
-}
-	
-.pattern {
-	overflow: visible;
-}
-
-a.menu-link {
-	display: none;
-}
-
-.js .menu, .js .menu > ul ul {
-	max-height: none;
-	overflow: visible;
-	background: none;
-}
-
-.js .menu > ul ul {
-	display:none
-}
-
-.js .menu > ul li:hover > ul {
-	display:block;
-}
-
-.menu ul {
-	margin: 0
-}
+	.menu {text-align:center}
+	.menu li{text-align:left}
+	/*.menu li a {display:inline-block}*/
+	/*.menu li li a {display:block}*/
 			
-.menu li a {
-	border: 0;
-}
+	ul.level-1 {
+		text-align:center;
+		position:relative; 
+		margin:20px 0 5px 0;
+		background-color: rgba(204, 204, 204, 0.1);
+		border-bottom: 4px double #ddd;
+		border-top: 4px double #ddd;
+		float: left; 
+		line-height: 1;  
+		width: 100%;
+		padding:12px 0 0 0	
+	}
+		
+	.menu ul a {
+		padding:8px 0px 8px 15px;
+		font-family: 'Titillium Web', 'KelmscottRomanRegular', Arial, sans-serif; /*YHY add font-face*/
+		color:#181818; 
+		font-size:16px; /*YHY 24px -> 16px*/ 
+		font-weight:normal;
+		text-decoration:none;
+		display: block; 
+		position: relative;
+		top:0px;
+	}
+		
+	.menu li span { 
+		color:#ff0000;/*color:#ea4128;*/  
+		font-size:30px; 
+	}
+
+	.menu ul li.last a span, .menu ul li li span {
+		display:none
+	}
+
+	.menu ul a span {
+		display:inline-block;
+		padding-left:15px; 
+		position:relative; 
+		top:0px;
+		letter-spacing:-4px
+	}
+		
+	.menu ul li li {
+		padding:0 15px 0 0px; 
+		margin:0; 
+		border-left:2px solid #ff0000; /*border-left:2px solid #ea4128; */
+		background:#181818; 
+	}
+		
+	.menu ul li:hover a{
+		text-decoration:none;
+		color:#ff0000;/*color:#ea4128;*/
+	}
+
+	.menu ul ul a:hover {
+		-webkit-transition: all 0.3s ease-out;  
+		-moz-transition: all 0.3s ease-out;
+		-ms-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
 			
-.menu > ul > li {
-	display: inline-block;
-	position: relative;
-}
-
-.menu > ul ul {
-	position: absolute;
-	top: 0;
-	left:100%
-}
-
-.menu > ul ul li {
-	position: relative;
-}
-
-.menu > ul ul.level-2 {
-	top: 3em;
-	left: 0; 
-	overflow:visible
-}
+	.menu ul li:hover ul a{
+		text-decoration:none;
+		background:none;
+		color:#fff; /*add*/
+	}
 			
+	.menu ul li:hover ul a:hover{
+		text-decoration:none;
+		background:#ff0000;/*background:#ea4128;*/
+		color:#fff;
+	}
+			
+	.menu ul ul a, .menu ul ul ul a {
+		padding:10px 5px 10px 10px;
+		border-bottom:1px solid #333;
+		
+	}
+
+	.active-link {
+		color:#ff0000 !important/*color:#ea4128 !important*/
+	}
+		
+	.pattern {
+		overflow: visible;
+	}
+
+	a.menu-link {
+		display: none;
+	}
+
+	.js .menu, .js .menu > ul ul {
+		max-height: none;
+		overflow: visible;
+		background: none;
+	}
+
+	.js .menu > ul ul {
+		display:none
+	}
+
+	.js .menu > ul li:hover > ul {
+		display:block;
+		position:absoulte;
+		top:30px;
+	}
+
+	.menu ul {
+		margin: 0
+	}
+				
+	.menu li a {
+		border: 0;
+	}
+				
+	.menu > ul > li {
+		display: inline-block;
+		position: relative;
+	}
+
+	.menu > ul ul {
+		position: absolute;
+		top: 0;
+		left:100%
+	}
+
+	.menu > ul ul li {
+		position: relative;
+	}
+
+	.menu > ul ul.level-2 {
+		top: 3em;
+		left: 0; 
+		overflow:visible
+	}
+				
 }
 		
 		

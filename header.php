@@ -149,8 +149,6 @@
 							</ul>
 						</li>
 						
-						<li><a href="contact.php">News</a></li>
-						
 						<li class="has-subnav">
 							<a href="#">Contact Us</a>
 							<ul class="level-2" >
@@ -159,6 +157,8 @@
 								<li><a href="index-video.html">Current Recruitment</a></li>
 							</ul>
 						</li>
+						
+						<li><a href="contact.php">News</a></li>
 					</ul>
 				</nav>
 			</div>

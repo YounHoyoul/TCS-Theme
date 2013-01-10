@@ -63,7 +63,14 @@
 			<h2 class="sub-title"><span class="inverse" style="font-style:italic;">Project Photo</span></h2>
 			<?php foreach($photos as $photo) :?>
 				<?php $photo_url = get_post_meta($post->ID, $photo, true);?>
-				<?php if(!empty($photo_url)) :?><img src="<?php echo $photo_url;?>"><?php endif;?>
+				<?php if(!empty($photo_url)) :?>
+					<?php $pos = strrpos($photo_url,"http://");?>
+					<?php if($pos === false):?>
+						<img src="<?php echo get_option('home'); ?>/<?php echo $photo_url;?>">
+					<?php else:?>
+						<img src="<?php echo $photo_url;?>">
+					<?php endif;?>
+				<?php endif;?>
 			<?php endforeach;?>
 			<p class="pb20">&nbsp;</p>
 		<?php endif;?>	
